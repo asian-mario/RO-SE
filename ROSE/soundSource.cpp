@@ -28,3 +28,18 @@ void soundSource::Play(const ALuint buffer) {
 	//plays sound
 	alSourcePlay(se_source);  
 }
+
+void soundSource::Pause()
+{
+	alSourcePause(se_source);
+}
+
+void soundSource::Stop()
+{
+	alSourceStop(se_source);
+}
+
+void soundSource::Resume()
+{
+	alSourcePlay(se_source);
+}
