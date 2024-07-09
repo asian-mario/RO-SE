@@ -2,19 +2,22 @@
 #include<AL/al.h>
 #include <vector>
 
-class soundBuffer{
-public:
-	static soundBuffer* get();
+namespace ROSE {
+	class soundBuffer {
+	public:
+		static soundBuffer* get();
 
-	ALuint addSound(const char* filename);
-	bool removeSound(const ALuint& buffer);
+		ALuint addSound(const char* filename);
+		bool removeSound(const ALuint& buffer);
 
 
-private:
-	soundBuffer();
-	~soundBuffer();
+	private:
+		soundBuffer();
+		~soundBuffer();
 
-	//every initialized sound goes here
-	std::vector<ALuint> se_soundEffectBuffers;
-};
+		//every initialized sound goes here
+		std::vector<ALuint> se_soundEffectBuffers;
+	};
 
+
+}

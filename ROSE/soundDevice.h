@@ -1,7 +1,8 @@
 #pragma once
 #include<AL/alc.h>
 
-class soundDevice {
+namesapce ROSE{
+	class soundDevice {
 public:
 	static soundDevice* get();
 
@@ -24,3 +25,4 @@ private:
 	ALCdevice* se_ALCDevice;
 	ALCcontext* se_ALCContext;
 };
+}
