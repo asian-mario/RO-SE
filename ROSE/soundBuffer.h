@@ -1,5 +1,5 @@
 #pragma once
-#include<AL/al.h>
+#include "../vendor/openal/include/AL/al.h"
 #include <vector>
 
 namespace ROSE {

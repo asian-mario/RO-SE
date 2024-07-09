@@ -1,5 +1,5 @@
 #pragma once
-#include<AL/alc.h>
+#include "../vendor/openal/include/AL/alc.h"
 
 namesapce ROSE{
 	class soundDevice {
