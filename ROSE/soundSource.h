@@ -1,5 +1,5 @@
 #pragma once
-#include "../vendor/openal/include/AL/al.h"
+#include <AL/al.h>
 
 namespace ROSE {
 	class soundSource {

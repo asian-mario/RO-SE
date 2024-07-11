@@ -1,6 +1,6 @@
 #pragma once
-#include "../vendor/openal/include/AL/al.h"
-#include "../vendor/libsndfile/include/sndfile.h"
+#include <AL/al.h>
+#include <sndfile.h>
 
 namespace ROSE {
 	class musicBuffer {
