@@ -1,7 +1,7 @@
 #pragma once
 #include "../vendor/openal/include/AL/alc.h"
 
-namesapce ROSE{
+namespace ROSE{
 	class soundDevice {
 public:
 	static soundDevice* get();
